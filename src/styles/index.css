@@ -3,6 +3,10 @@
     --white: #fcfcfc;
 }
 
+header {
+    display: block flex;
+}
+
 #doit-logo {
     height: 30px;
     width: auto;
@@ -24,7 +28,7 @@ p {
     color: var(--white);
     font-family: Verdana;
     font-size: 14px;
-    padding: 17px 40px;
+    padding: 13px 34px;
     text-align: center;
 }
 
