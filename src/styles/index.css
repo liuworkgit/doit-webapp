@@ -3,13 +3,18 @@
     --white: #fcfcfc;
 }
 
+#doit-logo {
+    height: 40px;
+    width: auto;
+}
+
 body {
     background-color: var(--white);
 }
 
 p {
     font-family: Verdana;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 #new-proj-btn {
@@ -18,7 +23,7 @@ p {
     border-radius: 30px;
     color: var(--white);
     font-family: Verdana;
-    font-size: 20px;
+    font-size: 14px;
     padding: 17px 40px;
     text-align: center;
 }
