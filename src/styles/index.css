@@ -2,9 +2,38 @@
     --orange: #f68721;
     --white: #fcfcfc;
 }
-
+/*
+npm run dev
+*/
 header {
     display: block flex;
+    width: 100%;
+}
+
+header > #header-left {
+    display: flex;
+    justify-content: left;
+}
+
+header > #header-right {
+    display: flex;
+    justify-content: right;
+}
+
+.header-sidebar {
+    flex-shrink: 0;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+header > .left {
+    margin-left: 0%;
+    margin-right: auto;
+}
+
+header > .right {
+    margin-left: auto;
+    margin-right: 0%;
 }
 
 #doit-logo {
