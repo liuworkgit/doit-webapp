@@ -2,11 +2,11 @@
     --orange: #f68721;
     --white: #fcfcfc;
 }
-/*
-npm run dev
-*/
+
 header {
     display: block flex;
+    margin: 0px 0px 50px 0px;
+    padding: 50px 0px 0px 0px;
     width: 100%;
 }
 
@@ -22,8 +22,8 @@ header > #header-right {
 
 .header-sidebar {
     flex-shrink: 0;
-    min-width: 100px;
-    max-width: 100px;
+    min-width: 150px;
+    max-width: 150px;
 }
 
 header > .left {
@@ -64,4 +64,9 @@ p {
 #new-proj-btn:hover {
     background-color: hsl(from var(--orange) h s calc(l - 15));
     cursor: pointer;
+}
+
+#new-proj-btn-sxn {
+    display: flex;
+    align-items: center;
 }
