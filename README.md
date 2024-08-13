@@ -1,5 +1,6 @@
 # Doit Website
 **Doit** is an online to-do list app. This project was made according to the specifications of [The Odin Project's todo list project.](https://www.theodinproject.com/lessons/node-path-javascript-todo-list)
+![Doit webapp mockup](https://github.com/liuworkgit/doit-webapp/blob/main/ui-prototypes/Doit%20Layout%20Mockup.png?raw=true)
 
 # User Stories
 A user should be able to:
