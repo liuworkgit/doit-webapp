@@ -2,6 +2,12 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+    devtool: 'eval',
+
+    devServer: {
+        static: './dist',
+    },
+
     entry: './src/index.js',
 
     mode: 'development',
