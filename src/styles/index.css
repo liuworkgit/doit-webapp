@@ -1,55 +1,51 @@
-:root {
-    --orange: #f68721;
-    --white: #fcfcfc;
+/* NOTE: Within each section, rules are sorted ALPHABETICALLY. */
+/* || GENERAL - Variables and element tags */
+body {
+    background-color: var(--white);
 }
-
 header {
     display: block flex;
     margin: 0px 0px 50px 0px;
     padding: 50px 0px 0px 0px;
     width: 100%;
 }
+p {
+    font-family: Verdana;
+    font-size: 14px;
+}
+:root {
+    --orange: #f68721;
+    --white: #fcfcfc;
+}
 
+/* || UTILITIES - Rules that flexibly apply to many elements */
+.left {
+    margin-left: 0%;
+    margin-right: auto;
+}
+.right {
+    margin-left: auto;
+    margin-right: 0%;
+}
+
+/* || SPECIFIC - Rules for all other components, context-specific styles, children, etc. */
+#doit-logo {
+    height: 30px;
+    width: auto;
+}
 header > #header-left {
     display: flex;
     justify-content: left;
 }
-
 header > #header-right {
     display: flex;
     justify-content: right;
 }
-
 .header-sidebar {
     flex-shrink: 0;
     min-width: 150px;
     max-width: 150px;
 }
-
-header > .left {
-    margin-left: 0%;
-    margin-right: auto;
-}
-
-header > .right {
-    margin-left: auto;
-    margin-right: 0%;
-}
-
-#doit-logo {
-    height: 30px;
-    width: auto;
-}
-
-body {
-    background-color: var(--white);
-}
-
-p {
-    font-family: Verdana;
-    font-size: 14px;
-}
-
 #new-proj-btn {
     background-color: var(--orange);
     border: none;
@@ -60,12 +56,10 @@ p {
     padding: 13px 34px;
     text-align: center;
 }
-
 #new-proj-btn:hover {
     background-color: hsl(from var(--orange) h s calc(l - 15));
     cursor: pointer;
 }
-
 #new-proj-btn-sxn {
     display: flex;
     align-items: center;
