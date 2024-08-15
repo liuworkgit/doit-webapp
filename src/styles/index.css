@@ -1,5 +1,12 @@
 /* NOTE: Within each section, rules are sorted ALPHABETICALLY. */
-/* NOTE: Attributes are sorted in order of TYPE, ID, USER-DEF, CLASS */
+/* NOTE: Attributes are sorted in order of: 
+- type
+- id
+- class
+- user-def attributes
+- src/links
+- alt text
+*/
 /* || GENERAL - Variables and element tags */
 body {
     background-color: var(--white);
