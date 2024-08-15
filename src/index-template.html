@@ -8,9 +8,10 @@
 </head>
 
 <body>
+    <!--Website Header-->
     <header>
         <div id="header-left" class="left">
-            <div class="header-sidebar"></div>
+            <div class="sidebar"></div>
             <div id="doit-info">
                 <img id="doit-logo" alt="Doit Logo"
                     src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/doit-logo.svg">
@@ -21,10 +22,27 @@
             <div id="new-proj-btn-sxn">
                 <button type="button" id="new-proj-btn">New Project</button>
             </div>
-            <div class="header-sidebar"></div>
+            <div class="sidebar"></div>
         </div>
     </header>
-    <main></main> <!--proj and tasks go here-->
+    <!--Projects Window-->
+    <main>
+        <div class="left sidebar"></div>
+        <div id="projects-window">
+            <div class="closed project">
+                <div class="project-info">
+                    <h2>Project Name</h2>
+                    <p>0/2 Tasks Complete</p>
+                </div>
+                <div class="project-options">
+                    <button type="button" class="edit-proj-btn">Edit Project</button>
+                    <button type="button" class="delete-proj-btn">Delete Project</button>
+                </div>
+                <button type="button" class="open-proj-btn">Open Project</button>
+            </div>
+        </div>
+        <div class="right sidebar"></div>
+    </main>
 </body>
 
 </html>
