@@ -1,12 +1,20 @@
 /* NOTE: Within each section, rules are sorted ALPHABETICALLY. */
+/* NOTE: Attributes are sorted in order of TYPE, ID, USER-DEF, CLASS */
 /* || GENERAL - Variables and element tags */
 body {
     background-color: var(--white);
 }
 header {
     display: block flex;
+    justify-content: center;
     margin: 0px 0px 50px 0px;
     padding: 50px 0px 0px 0px;
+    width: 100%;
+}
+main {
+    display: block flex;
+    justify-content: center;
+    margin: 50px 0px 10px 0px;
     width: 100%;
 }
 p {
@@ -27,6 +35,11 @@ p {
     margin-left: auto;
     margin-right: 0%;
 }
+.sidebar {
+    flex-shrink: 0;
+    min-width: 150px;
+    max-width: 150px;
+}
 
 /* || SPECIFIC - Rules for all other components, context-specific styles, children, etc. */
 #doit-logo {
@@ -40,11 +53,6 @@ p {
 #header-right {
     display: flex;
     justify-content: right;
-}
-.header-sidebar {
-    flex-shrink: 0;
-    min-width: 150px;
-    max-width: 150px;
 }
 #new-proj-btn {
     background-color: var(--orange);
