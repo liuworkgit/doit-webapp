@@ -38,6 +38,11 @@ p {
     margin-left: 0%;
     margin-right: auto;
 }
+.invis-btn {
+    background: transparent;
+    border: none;
+    font-size: 0px;
+}
 .right {
     margin-left: auto;
     margin-right: 0%;
