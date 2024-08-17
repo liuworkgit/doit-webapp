@@ -16,7 +16,7 @@ h2 {
     font-family: Verdana;
     font-size: 21px;
     font-weight: 100;
-    margin: 10px 0px 8px;
+    margin: 0px;
 }
 header {
     display: block flex;
@@ -53,6 +53,10 @@ p {
 }
 .dark-grey {
     color: var(--dark-grey);
+}
+.flex-inline {
+    align-items: center;
+    display: flex;
 }
 .left {
     margin-left: 0%;
@@ -117,8 +121,16 @@ p {
 .project {
     display: block flex;
 }
+.project-info > .flex-inline {
+    align-items: center;
+    display: flex;
+}
 .project-info > p {
-    margin-top: 8px;
+    margin: 8px 0px 0px;
+}
+.project-options {
+    display: inherit;
+    margin: 0px 0px 0px 8px;
 }
 #projects-window {
     padding: 24px;

@@ -13,7 +13,8 @@
         <div id="header-left" class="left">
             <div class="sidebar"></div>
             <div id="doit-info">
-                <img id="doit-logo" src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/doit-logo.svg" alt="Doit Logo">
+                <img id="doit-logo" src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/doit-logo.svg"
+                    alt="Doit Logo">
                 <p>The online to-do list that helps you get things done.</p>
             </div>
         </div>
@@ -30,19 +31,28 @@
         <div id="projects-window">
             <div class="closed project">
                 <div class="project-info">
-                    <h2>Project Name</h2>
+                    <div class="flex-inline">
+                        <h2>Project Name</h2>
+                        <div class="project-options">
+                            <button type="button" class="edit-proj-btn invis-btn">
+                                <img class="small-icon"
+                                    src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/edit-proj-btn.svg"
+                                    alt="Edit Project">
+                            </button>
+                            <button type="button" class="delete-proj-btn invis-btn">
+                                <img class="small-icon"
+                                    src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/delete-proj-btn.svg"
+                                    alt="Delete Project">
+                            </button>
+                        </div>
+                    </div>
                     <p class="dark-grey">0/2 Tasks Complete</p>
                 </div>
-                <div class="project-options">
-                    <button type="button" class="edit-proj-btn invis-btn">
-                        <img class="small-icon" src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/edit-proj-btn.svg" alt="Edit Project">
-                    </button>
-                    <button type="button" class="delete-proj-btn invis-btn">
-                        <img class="small-icon" src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/delete-proj-btn.svg" alt="Delete Project">
-                    </button>
-                </div>
+
                 <button type="button" class="open-proj-btn invis-btn">
-                    <img class="big-icon" src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/open-proj-btn.svg" alt="Open Project">
+                    <img class="big-icon"
+                        src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/open-proj-btn.svg"
+                        alt="Open Project">
                 </button>
             </div>
         </div>
