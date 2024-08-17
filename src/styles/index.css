@@ -47,6 +47,9 @@ p {
     width: 30px;
     height: auto;
 }
+.clickable:hover {
+    cursor: pointer;
+}
 .complete {
     text-decoration: line-through;
 }
@@ -109,7 +112,6 @@ p {
 }
 #new-proj-btn:hover {
     background-color: hsl(from var(--orange) h s calc(l - 15));
-    cursor: pointer;
 }
 #new-proj-btn-sxn {
     display: flex;
