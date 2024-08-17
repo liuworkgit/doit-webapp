@@ -44,6 +44,10 @@ p {
 }
 
 /* || UTILITIES - Rules that flexibly apply to many elements */
+.big-icon {
+    width: 30px;
+    height: auto;
+}
 .complete {
     text-decoration: line-through;
 }
@@ -70,6 +74,10 @@ p {
     flex-shrink: 0;
     min-width: 150px;
     max-width: 150px;
+}
+.small-icon {
+    width: 20px;
+    height: auto;
 }
 
 /* || SPECIFIC - Rules for all other components, context-specific styles, children, etc. */
