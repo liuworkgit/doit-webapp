@@ -50,6 +50,9 @@ p {
 .clickable:hover {
     cursor: pointer;
 }
+.closed {
+    border-bottom: 1px solid var(--light-grey);
+}
 .complete {
     text-decoration: line-through;
 }
@@ -119,7 +122,6 @@ p {
 }
 .project {
     align-items: center;
-    border-bottom: 1px solid var(--light-grey);
     display: block flex;
     padding: 10px;
 }
