@@ -1,11 +1,11 @@
-'use strict'
+'use strict';
 
 /**
  * @class Notes
  * 
- * A representation of a task's notes.
+ * Represents a task's notes.
  */
-class Notes {
+export default class Notes {
     /**
      * Constructor for a Notes object.
      * @param {String} t - The text of the note.
@@ -21,11 +21,11 @@ class Notes {
      * Getters and Setters
      */
     /**
-     * @returns {String} The text of the note.
-     */
-    get getText() {};
-    /**
      * @param {String} t - New text to be set.
      */
     set setText(t) {};
+    /**
+     * @returns {String} The text of the note.
+     */
+    get getText() {};
 };
