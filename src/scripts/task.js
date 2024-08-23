@@ -6,7 +6,7 @@ import Notes from "./notes";
  * 
  * Represents a task to be completed.
  */
-class Task {
+export default class Task {
     /**
      * Constructor for a Task object.
      * @param {String} name - The task's name. 
