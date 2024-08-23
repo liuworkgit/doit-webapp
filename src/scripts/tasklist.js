@@ -6,7 +6,7 @@ import Task from "./task";
  * 
  * Represents a collection of tasks.
  */
-class TaskList {
+export default class TaskList {
     /**
      * Constructor for a TaskList object.
      */
