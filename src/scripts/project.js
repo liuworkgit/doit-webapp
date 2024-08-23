@@ -6,9 +6,11 @@ import TaskList from "./tasklist";
  * 
  * Represents a project containing tasks to do.
  */
-class Project {
+export default class Project {
     /**
      * Constructor for a Project object.
+     * @param {String} name - The project's name.
+     * @param {Number} id - The project's id.  
      */
     constructor(name, id) {};
 
