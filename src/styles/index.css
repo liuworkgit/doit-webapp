@@ -120,7 +120,7 @@ p {
     display: flex;
     align-items: center;
 }
-.project {
+.project-bar {
     align-items: center;
     display: block flex;
     padding: 10px;
