@@ -100,11 +100,11 @@ p {
     width: auto;
 }
 #header-left {
-    display: flex;
+    display: inherit;
     justify-content: left;
 }
 #header-right {
-    display: flex;
+    display: inherit;
     justify-content: right;
 }
 #new-proj-btn {
@@ -120,16 +120,8 @@ p {
 #new-proj-btn:hover {
     background-color: hsl(from var(--orange) h s calc(l - 15));
 }
-#new-proj-btn-sxn {
-    display: flex;
-    align-items: center;
-}
 .project-bar {
     padding: 10px;
-}
-.project-info > .flex-inline {
-    align-items: center;
-    display: flex;
 }
 .project-info > p {
     margin: 8px 0px 0px;
