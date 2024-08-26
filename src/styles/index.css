@@ -43,6 +43,10 @@ p {
 }
 
 /* || UTILITIES - Rules that flexibly apply to many elements */
+.bar {
+    align-items: center;
+    display: block flex;
+}
 .big-icon {
     width: 30px;
     height: auto;
@@ -121,8 +125,6 @@ p {
     align-items: center;
 }
 .project-bar {
-    align-items: center;
-    display: block flex;
     padding: 10px;
 }
 .project-info > .flex-inline {

@@ -29,9 +29,8 @@
     <main>
         <div class="left sidebar"></div>
         <div id="projects-window">
-            <!--TODO: Implement JS for replacing show tasks icon-->
             <div class="project">
-                <div class="open project-bar">
+                <div class="bar open project-bar">
                     <div class="project-info">
                         <div class="flex-inline">
                             <h2>Project Name</h2>
@@ -58,12 +57,21 @@
                     </button>
                 </div>
                 <div class="tasks">
-                    <div class="task-bar">
+                    <div class="bar">
                         <button type="button">Mark Done</button>
-                        <h3>New Task</h3>
-                        <button type="button">Star</button>
-                        <button type="button">Notes</button>
-                        <p>Due October 1, 2024 1:00PM</p>
+                        <div>
+                            <div class="task-info">
+                                <h3>New Task</h3>
+                                <div class="task-options">
+                                    <button type="button">Star</button>
+                                    <button type="button">Notes</button>
+                                </div>
+                            </div>
+                            <div class="due-date">
+                                <p>Due October 1, 2024 1:00PM</p>
+                                <div class="warning">1 Week</div>
+                            </div>
+                        </div>
                         <button type="button">Edit</button>
                     </div>
                 </div>
