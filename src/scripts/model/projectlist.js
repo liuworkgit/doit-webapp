@@ -6,7 +6,7 @@ import Project from "./project";
  * 
  * Represents a list of projects.
  */
-class ProjectList {
+export default class ProjectList {
     /**
      * Constructor for a ProjectList object.
      */
