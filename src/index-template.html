@@ -29,51 +29,49 @@
     <main>
         <div class="left sidebar"></div>
         <div id="projects-window">
-            <div class="project">
-                <div class="bar open project-bar">
-                    <div class="project-info">
-                        <div class="flex-inline">
-                            <h2>Project Name</h2>
-                            <div class="project-options">
-                                <button type="button" class="clickable edit-proj-btn invis-btn">
-                                    <img class="small-icon"
-                                        src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/edit-proj-btn.svg"
-                                        alt="Edit Project">
-                                </button>
-                                <button type="button" class="clickable delete-proj-btn invis-btn">
-                                    <img class="small-icon"
-                                        src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/delete-proj-btn.svg"
-                                        alt="Delete Project">
-                                </button>
-                            </div>
+            <div class="open project-bar">
+                <div class="project-info">
+                    <div class="flex-inline">
+                        <h2>Project Name</h2>
+                        <div class="project-options">
+                            <button type="button" class="clickable edit-proj-btn invis-btn">
+                                <img class="small-icon"
+                                    src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/edit-proj-btn.svg"
+                                    alt="Edit Project">
+                            </button>
+                            <button type="button" class="clickable delete-proj-btn invis-btn">
+                                <img class="small-icon"
+                                    src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/delete-proj-btn.svg"
+                                    alt="Delete Project">
+                            </button>
                         </div>
-                        <p class="dark-grey">0/2 Tasks Complete</p>
                     </div>
-
-                    <button type="button" class="clickable invis-btn right show-tasks-btn">
-                        <img class="big-icon"
-                            src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/close-proj-btn.svg"
-                            alt="Open Project">
-                    </button>
+                    <p class="dark-grey">0/2 Tasks Complete</p>
                 </div>
-                <div class="tasks">
-                    <div class="bar">
-                        <button type="button">Mark Done</button>
-                        <div>
-                            <div class="task-info">
-                                <h3>New Task</h3>
-                                <div class="task-options">
-                                    <button type="button">Star</button>
-                                    <button type="button">Notes</button>
-                                </div>
-                            </div>
-                            <div class="due-date">
-                                <p>Due October 1, 2024 1:00PM</p>
-                                <div class="warning">1 Week</div>
+
+                <button type="button" class="clickable invis-btn right show-tasks-btn">
+                    <img class="big-icon"
+                        src="/Users/sen/COMPUTER STUFF (LOCAL)/webdev/doit webapp/src/assets/close-proj-btn.svg"
+                        alt="Open Project">
+                </button>
+            </div>
+            <div class="tasks">
+                <div class="task-bar">
+                    <button type="button" class="mark-done-btn">Mark Done</button>
+                    <div class="task-content">
+                        <div class="task-info">
+                            <h3>New Task</h3>
+                            <div class="task-options">
+                                <button type="button" class="star-full">Star</button>
+                                <button type="button" class="notes-btn">Notes</button>
                             </div>
                         </div>
-                        <button type="button">Edit</button>
+                        <div class="due-date">
+                            <p>Due October 1, 2024 1:00PM</p>
+                            <span class="warning">1 Week</span>
+                        </div>
                     </div>
+                    <button type="button" class="menu-btn">Menu</button>
                 </div>
             </div>
         </div>

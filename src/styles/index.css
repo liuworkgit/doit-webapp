@@ -18,6 +18,13 @@ h2 {
     font-weight: 100;
     margin: 0px;
 }
+h3 {
+    color: var(--header-black);
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 80;
+    margin: 0px;
+}
 header {
     display: block flex;
     justify-content: center;
@@ -43,10 +50,6 @@ p {
 }
 
 /* || UTILITIES - Rules that flexibly apply to many elements */
-.bar {
-    align-items: center;
-    display: block flex;
-}
 .big-icon {
     width: 30px;
     height: auto;
@@ -92,6 +95,7 @@ p {
 }
 
 /* || SPECIFIC - Rules for all other components, context-specific styles, children, etc. */
+/* HEADER */
 #doit-info > p {
     margin: 8px 0px 0px;
 }
@@ -120,7 +124,11 @@ p {
 #new-proj-btn:hover {
     background-color: hsl(from var(--orange) h s calc(l - 15));
 }
+
+/* PROJECT */
 .project-bar {
+    align-items: center;
+    display: block flex;
     padding: 10px;
 }
 .project-info > p {
@@ -136,3 +144,5 @@ p {
 .show-tasks-btn {
     margin-right: 30px;
 }
+
+/* TASK */
