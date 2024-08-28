@@ -1,3 +1,13 @@
+/* CONTAINS:
+- Project
+- Projects Window
+*/
+
+/* PROJECTS WINDOW */
+#projects-window {
+    width: 100%;
+}
+
 /* PROJECT */
 .project-bar {
     align-items: center;
@@ -10,9 +20,6 @@
 .project-options {
     display: inherit;
     margin: 0px 0px 0px 8px;
-}
-#projects-window {
-    width: 100%;
 }
 .show-tasks-btn {
     margin-right: 30px;
