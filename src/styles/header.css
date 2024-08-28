@@ -1,0 +1,29 @@
+/* HEADER */
+#doit-info > p {
+    margin: 8px 0px 0px;
+}
+#doit-logo {
+    height: 30px;
+    width: auto;
+}
+#header-left {
+    display: inherit;
+    justify-content: left;
+}
+#header-right {
+    display: inherit;
+    justify-content: right;
+}
+#new-proj-btn {
+    background-color: var(--orange);
+    border: none;
+    border-radius: 30px;
+    color: var(--white);
+    font-family: Verdana;
+    font-size: 14px;
+    padding: 13px 34px;
+    text-align: center;
+}
+#new-proj-btn:hover {
+    background-color: hsl(from var(--orange) h s calc(l - 15));
+}

@@ -1,0 +1,19 @@
+/* PROJECT */
+.project-bar {
+    align-items: center;
+    display: block flex;
+    padding: 10px;
+}
+.project-info > p {
+    margin: 8px 0px 0px;
+}
+.project-options {
+    display: inherit;
+    margin: 0px 0px 0px 8px;
+}
+#projects-window {
+    width: 100%;
+}
+.show-tasks-btn {
+    margin-right: 30px;
+}
