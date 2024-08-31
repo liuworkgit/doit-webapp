@@ -1,0 +1,14 @@
+/* TASK */
+.menu-btn {
+    margin-right: 30px;
+}
+
+.task-bar {
+    align-items: center;
+    display: block flex;
+}
+
+.task-info {
+    align-items: center;
+    display: block flex;
+}
