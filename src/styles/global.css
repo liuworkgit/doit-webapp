@@ -69,7 +69,7 @@ p {
 .light-grey {
     color: var(--light-grey);
 }
-.invis-btn {
+.invis {
     background: transparent;
     border: none;
     font-size: 0px;
