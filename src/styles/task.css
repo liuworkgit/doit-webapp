@@ -12,6 +12,11 @@
     margin-right: 30px;
 }
 
+.notes-btn > img {
+    width: 18px;
+    height: auto;
+}
+
 .task-bar {
     align-items: center;
     display: block flex;
@@ -27,4 +32,10 @@
     align-items: center;
     display: block flex;
     margin: 0px 0px 8px 0px;
+}
+
+.task-options {
+    align-items: start;
+    display: flex;
+    margin-left: 8px;
 }
