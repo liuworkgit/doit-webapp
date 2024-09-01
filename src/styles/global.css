@@ -34,6 +34,7 @@ main {
 p {
     font-family: Verdana;
     font-size: 14px;
+    margin: 0px;
 }
 :root {
     --dark-grey: #747474;
@@ -41,6 +42,7 @@ p {
     --light-grey: #adadad;
     --orange: #f68721;
     --white: #fcfcfc;
+    --yellow: #ffde2f;
 }
 /* || UTILITIES - Rules that flexibly apply to many elements */
 .big-icon {
