@@ -17,6 +17,24 @@
     width: fit-content;
 }
 
+/* .mark-done-btn {
+    position: static;
+} */
+
+.mark-done-btn img.img-hover {
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; */
+    object-fit: contain;
+    opacity: 0;
+}
+
+.mark-done-btn:hover img.img-hover {
+    opacity: 1;
+}
+
 .menu-btn {
     margin-right: 30px;
 }
