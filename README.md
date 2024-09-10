@@ -8,6 +8,9 @@ A user should be able to:
 - Create new projects to store their tasks.
 - Add and delete tasks from a project.
 - Change a task/project's details.
+- Mark a task as done.
+- Mark a task as important and see a deadline warning appear when they do.
+- See which projects have uncompleted tasks, and which ones are all done.
 
 # Credits
 - [Write icon](https://iconscout.com/free-icon/write-1885782) by [Zeroicon](https://iconscout.com/contributors/Ardiansyah)
