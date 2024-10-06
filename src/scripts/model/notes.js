@@ -10,12 +10,16 @@ export default class Notes {
      * Constructor for a Notes object.
      * @param {String} t - The text of the note.
      */
-    constructor(t) {};
+    constructor(t) {
+        this.text = t;
+    };
 
     /**
      * Clears the note's text.
      */
-    clearText() {};
+    clearText() {
+        this.text = undefined;
+    };
 
     /**
      * Getters and Setters
@@ -23,9 +27,13 @@ export default class Notes {
     /**
      * @param {String} t - New text to be set.
      */
-    set setText(t) {};
+    set setText(t) {
+        this.text = t;
+    };
     /**
      * @returns {String} The text of the note.
      */
-    get getText() {};
+    get getText() {
+        return this.text;
+    };
 };
