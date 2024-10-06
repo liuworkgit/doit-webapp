@@ -8,4 +8,9 @@ import UIMaker from "./uimaker";
  * 
  * Represents the application logic of Doit.
  */
-export default class DoitApp {};
+export default class DoitApp {
+    /**
+     * Constructor for DoitApp.
+     */
+    constructor() {}
+};
