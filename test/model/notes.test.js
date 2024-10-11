@@ -11,7 +11,3 @@ let note = new Notes('The quick brown fox jumped over the lazy dog.');
 function beforeEach() {
     note.setText('The quick brown fox jumped over the lazy dog.');
 };
-
-/**
- * Tests the constructor.
- */

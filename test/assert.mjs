@@ -38,7 +38,7 @@ class Assert {
      * @returns boolean
      */
     isTrue(value) {
-        if (typeof value !== boolean) {
+        if (typeof value !== typeof true) {
             throw new Error('value must be a boolean.');
         }
         return value === true;
@@ -51,7 +51,7 @@ class Assert {
      * @returns boolean
      */
     isFalse(value) {
-        if (typeof value !== boolean) {
+        if (typeof value !== typeof false) {
             throw new Error('value must be a boolean');
         }
         return value === false;
@@ -61,6 +61,7 @@ class Assert {
      * Asserts if the given values are equal.
      * @param {*} value1 - first value to compare.
      * @param {*} value2 - second value to compare.
+     * @throws Types not equal error
      * @returns boolean
      */
     isEqual(value1, value2) {
@@ -74,3 +75,10 @@ class Assert {
 // prevent modification by consuming code,
 const assert = Object.freeze(new Assert());
 export default assert;
+
+console.log(assert.isEqual(1, 2));
+console.log(assert.isEqual(1, 1));
+console.log(assert.isTrue(1 === 1));
+console.log(assert.isTrue(1 === 2));
+console.log(assert.isFalse(1 === 1));
+console.log(assert.isFalse(1 === 2));
