@@ -11,7 +11,9 @@ export default class Notes {
      * @param {String} t - The text of the note.
      */
     constructor(t) {
-        this.text = t;
+        if (t != undefined) {
+            this.text = t;
+        };
     };
 
     /**

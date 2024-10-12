@@ -75,10 +75,3 @@ class Assert {
 // prevent modification by consuming code,
 const assert = Object.freeze(new Assert());
 export default assert;
-
-console.log(assert.isEqual(1, 2));
-console.log(assert.isEqual(1, 1));
-console.log(assert.isTrue(1 === 1));
-console.log(assert.isTrue(1 === 2));
-console.log(assert.isFalse(1 === 1));
-console.log(assert.isFalse(1 === 2));

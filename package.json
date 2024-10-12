@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Plugins and packages for Doit, an online to-do list website.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx webpack --config webpack.production.config.js",

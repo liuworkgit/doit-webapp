@@ -13,7 +13,7 @@ import assert from "./assert.mjs";
  * @param {String} testName - the name of the test.
  * @param {Function} assert - the assertion.
  */
-function test(testName, assert) {
+export default function test(testName, assert) {
     if (assert == true) {
         console.log(`${testName} passed.`);
     } else {
