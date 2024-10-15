@@ -7,7 +7,7 @@ import Notes from '../../src/scripts/model/notes.js';
 // Test cases for Notes.
 
 /**
- * Setup function.
+ * Run before each test.
  */
 let note = new Notes('The quick brown fox jumped over the lazy dog.');
 function beforeEach() {

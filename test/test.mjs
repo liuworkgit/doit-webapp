@@ -1,7 +1,5 @@
 'use strict';
 
-import assert from "./assert.mjs";
-
 /**
  * @module Test
  * 
@@ -18,5 +16,5 @@ export default function test(testName, assert) {
         console.log(`${testName} passed.`);
     } else {
         console.log(`${testName} failed.`);
-    }
+    };
 };
