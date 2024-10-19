@@ -13,8 +13,8 @@ import Notes from "../../src/scripts/model/notes";
 let task;
 const beforeEach = () => task = new Task(
     'Finish Homework',
-    new Date(),
-    123456,
+    new Date('2011-10-10T14:48:00'),
+    1234567890,
     new Notes('Ask teacher about #3.')
 );
 
@@ -23,3 +23,4 @@ const beforeEach = () => task = new Task(
  */
 console.log('Testing testConstructor...');
 test('testConstructor - task.name', assert.isEqual(task.name, 'Finish Homework'));
+test('testConstructor - task.due', assert.isEqual(task.due));
